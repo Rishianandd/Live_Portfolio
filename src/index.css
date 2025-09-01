@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+@keyframes loading-left {
+  0% { transform: translateX(0); opacity: 1; }
+  40% { transform: translateX(-40px); opacity: 0.5; }
+  60% { transform: translateX(-40px); opacity: 0.5; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes loading-right {
+  0% { transform: translateX(0); opacity: 1; }
+  40% { transform: translateX(40px); opacity: 0.5; }
+  60% { transform: translateX(40px); opacity: 0.5; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+.animate-loading-left {
+  animation: loading-left 1.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+.animate-loading-right {
+  animation: loading-right 1.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 5%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 5%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 5%;
+
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 5%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 45 100% 60%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 0%;
+
+    --radius: 0.5rem;
+    
+    /* Portfolio specific tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(0 0% 98%), hsl(0 0% 94%));
+    --text-gradient: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 30%));
+    --accent-gradient: linear-gradient(135deg, hsl(45 100% 60%), hsl(35 100% 55%));
+    --shadow-soft: 0 4px 20px hsl(0 0% 0% / 0.1);
+    --shadow-glow: 0 0 40px hsl(45 100% 60% / 0.3);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 0 0% 5%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 45 100% 60%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 0 0% 98%;
+    
+    /* Dark mode portfolio tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(0 0% 5%), hsl(0 0% 8%));
+    --text-gradient: linear-gradient(135deg, hsl(0 0% 100%), hsl(0 0% 70%));
+    --shadow-soft: 0 4px 20px hsl(0 0% 0% / 0.5);
+    --shadow-glow: 0 0 40px hsl(45 100% 60% / 0.4);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
