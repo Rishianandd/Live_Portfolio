@@ -1,73 +1,233 @@
-# Welcome to your Lovable project
+# Live Portfolio – AI/ML & Full Stack Developer Portfolio Website
 
-## Project info
+## 🚀 Project Overview
 
-**URL**: https://lovable.dev/projects/dafc98f8-c7a1-4cd4-8549-799c8d25dc27
+Live Portfolio is a modern and responsive personal portfolio website developed to showcase professional experience, AI/ML projects, research work, technical skills, certifications, and internships. The website serves as a digital portfolio platform for recruiters, collaborators, and clients to explore projects and professional achievements.
 
-## How can I edit this code?
+The portfolio highlights expertise in:
 
-There are several ways of editing your application.
+- ✅ Artificial Intelligence & Machine Learning
+- ✅ Data Engineering
+- ✅ Full Stack Development
+- ✅ Computer Vision
+- ✅ Speech Recognition
+- ✅ Research & Publications
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dafc98f8-c7a1-4cd4-8549-799c8d25dc27) and start prompting.
+## 🌐 Live Website
 
-Changes made via Lovable will be committed automatically to this repo.
+🔗 https://live-portfolio-rishianand.vercel.app
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📌 Project Objective
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The objective of this project is to create a professional online portfolio that:
 
-Follow these steps:
+- Showcases technical skills and achievements
+- Highlights AI/ML and full-stack projects
+- Displays internship and research experiences
+- Provides easy access to resume and contact information
+- Builds a strong online presence for placements and collaborations
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🔥 Key Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+- ✅ Fully responsive portfolio website
+- ✅ Modern and clean UI/UX design
+- ✅ Professional landing page
+- ✅ About, Education, Experience, Projects, Research, and Contact sections
+- ✅ Featured AI/ML and Full Stack projects
+- ✅ Resume download functionality
+- ✅ GitHub and LinkedIn integration
+- ✅ Deployment using Vercel
+- ✅ Interactive navigation and smooth scrolling
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 📂 Website Sections
+
+### 🏠 Home Section
+- Personal introduction
+- AI/ML & Data Engineering profile
+- Resume download button
+- GitHub and collaboration links
+
+### 👨‍💻 About Section
+Highlights:
+- AI/ML specialization
+- Technical expertise
+- Research background
+- Certifications and achievements
+
+### 🎓 Education Section
+Displays:
+- Academic background
+- University details
+- CGPA and specialization
+
+### 💼 Experience Section
+Professional experiences include:
+- DRDO Research Internship
+- ICF Internship
+- Web Development Internship
+
+### 🚀 Projects Section
+Featured projects include:
+- Vehicle Detection System
+- Smart Energy Distribution System
+- Intelligent Image De-smoking & De-hazing
+- AI/ML Research Projects
+- Web Development Projects
+
+### 🔬 Research Section
+Displays:
+- Research publications
+- Technical research contributions
+- IEEE conference publications
+
+### 📞 Contact Section
+Allows recruiters and collaborators to connect easily.
+
+---
+
+## ⚙️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend Development |
+| HTML5 | Structure |
+| CSS3 | Styling & Responsive Design |
+| JavaScript | Interactivity |
+| Vercel | Deployment |
+| GitHub | Version Control |
+| Node.js | Development Environment |
+
+---
+
+## 📊 Technical Highlights
+
+| Feature | Description |
+|---------|-------------|
+| Responsive Design | Supports desktop, tablet, and mobile devices |
+| Smooth Navigation | Easy section-based navigation |
+| Portfolio Showcase | Displays projects and research |
+| Resume Integration | Direct resume download |
+| Professional UI | Clean modern design for recruiters |
+| Deployment | Hosted on Vercel |
+
+---
+
+## 📁 Project Structure
+
+```bash
+Live_Portfolio/
+│
+├── public/
+├── src/
+├── .gitignore
+├── README.md
+├── bun.lockb
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🚀 Installation & Setup
+
+### 🔹 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Live_Portfolio.git
+```
+
+### 🔹 Navigate to the Project Folder
+
+```bash
+cd Live_Portfolio
+```
+
+### 🔹 Install Dependencies
+
+```bash
+npm install
+```
+
+### 🔹 Run the Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📈 Website Highlights
 
-**Use GitHub Codespaces**
+- ✅ Professional recruiter-friendly portfolio
+- ✅ AI/ML and Data Engineering showcase
+- ✅ Internship and research experience display
+- ✅ Responsive and optimized UI
+- ✅ Integrated GitHub and LinkedIn profiles
+- ✅ Fast-loading and SEO-friendly structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🧠 Featured Skills
 
-This project is built with:
+### AI/ML
+- TensorFlow
+- PyTorch
+- Computer Vision
+- CNN
+- NLP
+- Speech Recognition
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Full Stack
+- React.js
+- Node.js
+- HTML/CSS
+- JavaScript
+- Python
+- SQL
 
-## How can I deploy this project?
+### Cloud & Tools
+- AWS
+- Azure
+- GitHub
+- Vercel
 
-Simply open [Lovable](https://lovable.dev/projects/dafc98f8-c7a1-4cd4-8549-799c8d25dc27) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🔮 Future Improvements
 
-Yes, you can!
+- 🔹 Add dark/light mode toggle
+- 🔹 Integrate backend contact form
+- 🔹 Add blog section
+- 🔹 Add project filtering system
+- 🔹 Improve animations and transitions
+- 🔹 Add admin dashboard for updates
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📬 Contributions
+
+Contributions are welcome! Feel free to fork this repository and submit pull requests.
+
+---
+
+## 📧 Contact
+
+For collaboration or queries:
+
+- **Author:** Rishi Anand
+
+---
+
+🌟 Give this project a star if you found it useful! ⭐
